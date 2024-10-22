@@ -1,0 +1,17 @@
+{
+    "name": "backend",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+      "body-parser": "^1.20.3",
+      "cors": "^2.8.5",
+      "express": "^4.21.1",
+      "portfinder": "^1.0.32"
+    },
+    "scripts": {
+      "start": "node Server.js"
+    },
+    "devDependencies": {
+      "concurrently": "^9.0.1"
+    }
+  }
