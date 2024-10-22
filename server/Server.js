@@ -84,6 +84,13 @@ app.post('/productos', (req, res) => {
     });
 });
 
+// Middleware para servir index.html para rutas no API
+app.use(express.static(path.join(__dirname, '..', 'client', 'build'))); // Sirve archivos estáticos desde build
+
+app.get('*', (req, res) => {
+    res.sendFile(path.join(__dirname, '..', 'client', 'build', 'index.html')); // Sirve index.html para cualquier otra ruta
+});
+
 // Iniciar el servidor
 app.listen(PORT, () => {
     console.log(`Servidor corriendo en http://localhost:${PORT}`);
