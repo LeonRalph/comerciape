@@ -1,0 +1,14 @@
+BOOSTRAP Posiblemente
+ npm install bootstrap@5.3.3
+
+npm install react-router-dom
+
+npm install react-icons
+
+npm install bootstrap
+
+npm install express body-parser cors
+
+ejecutables
+node server.js
+npm start

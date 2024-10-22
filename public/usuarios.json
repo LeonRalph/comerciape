@@ -1,0 +1,12 @@
+[
+  {
+    "id": 1,
+    "email": "leonralph3d@gmail.com",
+    "password": "Leon#1234",
+    "companyName": "Exposervice",
+    "firstName": "Leonardo",
+    "lastName": "Pereyra",
+    "phone": "972778333",
+    "userType": "Vendedor"
+  }
+]

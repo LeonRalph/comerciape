@@ -1,0 +1,25 @@
+
+/*Vender*/
+
+@media (max-width : 1080px) {
+    .sec_banner_reg h3{
+        font-size: 1.8em;
+    }
+    .asid_banner_btn_reg{
+        background-color: transparent;
+    }
+    .asid_banner_btn_reg button{
+        font-size: 1.2em;
+    }
+    .asid_banner_btn_reg span{
+        display: none;
+    }
+}
+@media (max-width : 640px) {
+    .sec_banner_reg h3{
+        font-size: 1.4em;
+    }
+    .asid_banner_btn_reg button::after{
+        content: "";
+    }
+}

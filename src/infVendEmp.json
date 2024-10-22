@@ -1,0 +1,94 @@
+{
+    "d_ben" :  [
+        {"ben_resal" : "10% de devolución en tu primera venta", "descripcion" : " de marca de $4 000 y, a continuación, 5 % de devolución durante el primer año hasta que alcances $100 000"},
+        {"ben_resal" : "$30 de descuento en envíos", "descripcion" : " en la Red Logística de ComerciaPe con el Programa Transportista asociado de ComerciaPe"},
+        {"ben_resal" : "Almacenamiento gratis y devoluciones", "descripcion" : " a clientes con el registro automático en el programa de nueva selección de Logística de ComerciaPe"},
+        {"ben_resal" : "Crédito de $50", "descripcion" : " para crear anuncios de Sponsored Products o Sponsored Brands"}
+    ],
+    "d_est" : [
+        {"titulo" : "Más de $40.000", "descripcion" : "Promedio de ventas de vendedores de Peru en 2024"},
+        {"titulo" : "Más del 60 %", "descripcion" : "Porcentaje de ventas en ComerciaPe procedentes de vendedores independientes, la mayoría de los cuales son pequeñas y medianas empresas"},
+        {"titulo" : "Más de 100", "descripcion" : "Ciudades donde ComerciaPe realiza envíos a los clientes"}
+    ],
+    "d_punt" : [
+        {"icon" : "https://m.media-amazon.com/images/G/01/sp-marketing-toolkit/guides/design/iconography/icon-plus/desktop_selling.svg",
+         "titulo" : "Vende en una tienda en la que más clientes confían",
+         "descripcion" : "La marca ComerciaPe puede ayudarte a atraer y llegar a más clientes. Nos clasificamos como la marca más fiable entre los consumidores de Peru en 2024.",
+         "masInfo" : "Más información sobre cómo evitamos productos falsificados"
+        },
+        {"icon" : "https://m.media-amazon.com/images/G/01/sp-marketing-toolkit/guides/design/iconography/icon-plus/home_services.svg",
+         "titulo" : "Vende con herramientas y programas que te ayuden a tener éxito",
+         "descripcion" : "Gestionar un negocio es una tarea compleja. Por eso, proporcionamos a todos los vendedores del plan Profesional un kit de herramientas completo para publicar, definir precios y promocionar productos. También ofrecemos opciones de gestión logística, soluciones publicitarias, programas especializados, etc.",
+         "masInfo" : "Más información sobre nuestro plan de ventas Profesional"
+        },
+        {"icon" : "https://m.media-amazon.com/images/G/01/sp-marketing-toolkit/guides/design/iconography/icon-plus/options.svg",
+         "titulo" : "Vende con servicios opcionales de gran impacto",
+         "descripcion" : "Ofrecemos a los vendedores de todos los tamaños una gama de servicios opcionales a gran valor; son servicios a los que normalmente solo pueden acceder las grandes empresas. Incluyen Logística deComerciaPe,ComerciaPe Ads yComerciaPe Lending.",
+         "masInfo" : "Explora los programas de ventas deComerciaPe"
+        }
+    ],
+    "d_res" :  [
+        {"companiaLogo" : "https://m.media-amazon.com/images/G/01/sell/images/brands/diaspora-co-logo.svg",
+         "descripcion" : "\"Confiaba en que había una comunidad interesada para la cual éramos importantes. Lo único que teníamos que hacer era encontrarla\"",
+         "portraitEmp" : "https://m.media-amazon.com/images/G/01/sell/images/headshots/Sana-Javeri-Kadri-portrait.webp",
+         "nombreEmp" : "Sana Javeri Kadri",
+         "cargoEmp" : "Fundadora y directora general"
+        },
+        {"companiaLogo" : "https://m.media-amazon.com/images/G/01/sell/images/brands/nested-bean-logo.svg",
+         "descripcion" : "\"Los retos son una señal de que hay que cambiar algo fundamental. En nuestro caso, era la forma en que vendíamos nuestros productos; teníamos que empezar a vender por Internet\"",
+         "portraitEmp" : "https://m.media-amazon.com/images/G/01/sell/images/headshots/Manasi-Gangan-portrait.webp",
+         "nombreEmp" : "Manasi Gangan",
+         "cargoEmp" : "Fundadora"
+        }
+    ],
+    "d_preg_frec" : [
+        {"pregunta" : "¿Cómo empiezo a vender con ComerciaPe?",
+         "respuesta" : ["Para empezar, selecciona un plan de ventas. Luego, regístrate en ComerciaPe y crea una cuenta de vendedor de ComerciaPe. Una vez configurada tu cuenta, publica y establece el precio de los productos, selecciona un método de gestión logística y consulta las opciones para promocionar y anunciarte."],
+         "masInfo" : ["Más información sobre cómo empezar a usarComerciaPe"]
+        },
+        {
+         "pregunta" : "¿Cuánto cuesta vender en ComerciaPe?",
+         "respuesta" : ["Ofrecemos dos planes de ventas, para que puedas elegir el paquete de herramientas y servicios adecuado al precio correcto.",
+                            [
+                                {"dato": "El plan de ventas Individual cuesta $0.99 por venta."},
+                                {"dato": "El plan de ventas Profesional cuesta $39.99 por mes, independientemente de cuántos artículos vendas."}
+                            ],
+                            "Por cada producto que vendas, también pagarás una tarifa por referencia que es un porcentaje del precio total o un monto mínimo, lo que sea mayor.",
+                            "Es posible que tengas costos adicionales si usas determinados programas y herramientas opcionales, como Logística deComerciaPe oComerciaPe Ads.",
+                            "Por último, puedes controlar el costo de venta en la tienda deComerciaPe mediante la selección de los programas y las herramientas más adecuados para tu negocio." 
+                        ],
+         "masInfo" : ["Más información sobre los precios"]
+        },
+        {
+         "pregunta" : "¿Como se puede vender en ComerciaPe?",
+         "respuesta" : ["Ofrecemos dos planes de ventas, para que puedas elegir el paquete de herramientas y servicios adecuado al precio correcto." ,
+                            [
+                                {"dato": "Puedes gestionar los pedidos por tu cuenta, y mantener tu propio inventario y enviar los productos directamente a los clientes. Lo llamamos «Envío gestionado por el vendedor»."},
+                                {"dato": "Puedes enviar el inventario aComerciaPe y nosotros recibamos, preparemos y entreguemos los productos a través de Logística deComerciaPe. Logística deComerciaPe también se encarga del servicio de atención al cliente y de las devoluciones."}
+                            ],
+                        "Cada método cuenta con sus propios beneficios, por lo que puedes decidir cuál es el más adecuado para cada producto que vendas. También puedes usar la calculadora de ingresos para comparar las estimaciones de Logística deComerciaPe y tu propio método de gestión logística"
+                       ],
+         "masInfo" : ["Más información sobre Gestionado por el vendedor" , "Más información sobre Logística deComerciaPe"]  
+        },
+        {
+            "pregunta" : "¿Cómo puedo promocionar y anunciar los productos que vendo?",
+            "respuesta" : ["Usa las promociones sin costo y anuncios de costo por clic para que tus productos y marca lleguen a más clientes." ,
+                               [
+                                   {"dato": "Crea cupones que aparezcan en la página Cupones deComerciaPe, en los resultados de búsqueda y en las páginas de detalles del producto."},
+                                   {"dato": "Promociones de tipo “Porcentaje de descuento” y “2x1” que aparecen como parte de una oferta destacada."},
+                                   {"dato": "Crea Ofertas relámpago o Mejores ofertas que aparezcan en la página Promociones deComerciaPe. Esta es una opción popular en eventos de compra, como Prime Day." },
+                                   {"dato": "Crea anuncios de Sponsored Products que muestren un único producto y aparezcan en los resultados de búsqueda de los clientes enComerciaPe." },
+                                   {"dato": "Usa los anuncios de Sponsored Brands para incluir hasta tres productos, así como un logotipo y un titular. O bien, crea una campaña de Sponsored Brands con un video que se reproduce automáticamente con un único producto. Estos anuncios aparecen en un lugar destacado en los resultados de búsqueda." },
+                                   {"dato" : "Crea anuncios de Sponsored Display con un único producto y que puedan aparecer tanto en la tienda deComerciaPe como fuera después de que un cliente haya visto la página de detalles del producto, o si sus otros comportamientos de navegación indican que le interesa un producto."}
+                               ]
+                          ],
+            "masInfo" : ["Más información sobre publicidad"]  
+        },
+        {
+            "pregunta" : "¿Cómo recibo el pago de mis ventas enComerciaPe?",
+            "respuesta" : ["Por lo general,ComerciaPe liquida las cuentas de vendedor cada dos semanas. Esto significa que tomamos tu saldo inicial, sumamos tus ventas, restamos los gastos, ajustamos los reembolsos y, a continuación, transferimos el pago.",
+                           "Si quieres saber cómo se ha calculado un pago para un periodo de liquidación pasado o más información sobre un próximo pago, puedes usar un informe de pagos en Seller Central."],
+            "masInfo" : ["Más información sobre los precios"]
+        }
+    ]
+}

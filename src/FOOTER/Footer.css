@@ -1,0 +1,112 @@
+/* Footer.css */
+
+.pie {
+    background-color: #f0f4f8; /* Color de fondo suave */
+    padding: 40px 20px; /* Mayor espaciado */
+    text-align: center; /* Centrar el texto */
+    font-family: 'Arial', sans-serif; /* Fuente legible */
+    border-top: 2px solid #007bff; /* Borde superior para separación */
+}
+
+.header {
+    display: flex; /* Usar flexbox */
+    justify-content: space-between; /* Espacio entre logo y redes */
+    align-items: center; /* Centrar verticalmente */
+    margin-bottom: 20px; /* Espacio inferior */
+}
+
+.logo {
+    display: flex; /* Usar flexbox para alinear logo e texto */
+    align-items: center; /* Centrar verticalmente */
+}
+
+.logo img {
+    width: 60px; /* Ajuste del ancho de la imagen */
+    margin-right: 15px; /* Espaciado a la derecha del logo */
+}
+
+.redes {
+    display: flex; /* Usar flexbox para alinear iconos */
+    gap: 20px; /* Espacio entre los iconos */
+}
+
+.redes a {
+    color: #333; /* Color de los iconos */
+    font-size: 24px; /* Aumentar tamaño de los iconos */
+    transition: color 0.3s; /* Transición suave */
+}
+
+.redes a:hover {
+    color: #007bff; /* Color al pasar el ratón */
+}
+
+.section {
+    display: flex; /* Usar flexbox para las secciones */
+    justify-content: space-around; /* Espacio alrededor */
+    flex-wrap: wrap; /* Permitir que las secciones se envuelvan en pantallas pequeñas */
+    margin: 20px 0; /* Espaciado arriba y abajo */
+}
+
+.section div {
+    flex: 1; /* Cada sección ocupará el mismo espacio */
+    margin: 10px; /* Espaciado lateral */
+    min-width: 150px; /* Ancho mínimo para responsividad */
+}
+
+h2 {
+    font-size: 22px; /* Aumentar tamaño de fuente para los títulos */
+    margin-bottom: 15px; /* Espaciado debajo de los títulos */
+    color: #007bff; /* Color de los títulos */
+}
+
+a {
+    display: block; /* Cada enlace en una nueva línea */
+    color: #555; /* Color de los enlaces */
+    text-decoration: none; /* Sin subrayado */
+    margin: 5px 0; /* Espaciado entre enlaces */
+    transition: color 0.2s; /* Transición suave */
+}
+
+a:hover {
+    color: #007bff; /* Color al pasar el ratón */
+}
+
+.derechos {
+    margin-top: 20px; /* Espaciado superior */
+    font-size: 14px; /* Tamaño de fuente para derechos */
+    color: #777; /* Color más suave */
+}
+
+form {
+    margin-top: 15px; /* Espacio adicional arriba del formulario */
+}
+
+input[type="email"] {
+    padding: 10px; /* Espaciado interno */
+    width: 250px; /* Ancho del input */
+    border: 1px solid #ccc; /* Borde del input */
+    border-radius: 5px; /* Bordes redondeados */
+    margin-right: 10px; /* Espaciado a la derecha */
+    transition: border 0.3s; /* Transición suave para el borde */
+}
+
+input[type="email"]:focus {
+    border-color: #007bff; /* Cambiar color de borde al enfocar */
+    outline: none; /* Sin contorno al enfocar */
+}
+
+button {
+    padding: 10px 15px; /* Espaciado interno del botón */
+    background-color: #007bff; /* Color de fondo del botón */
+    color: white; /* Color del texto */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer; /* Cambiar cursor al pasar sobre el botón */
+    transition: background-color 0.3s; /* Transición suave */
+    margin-left: 10px; /* Margen a la izquierda para separar del input */
+    margin-top: 10px; /* Margen superior para separar del input */
+}
+
+button:hover {
+    background-color: #0056b3; /* Color más oscuro al pasar el ratón */
+}

@@ -1,0 +1,34 @@
+git clone https://github.com/Tonysito/EFSRT-II_APLICATIVO_WEB.git  PARA CLONAR EL REPOSITORIO 
+
+git pull origin main    PATA ACTUALIZAR DESDE EL REMOTO AL LOCAL
+
+git init  PARA INICIALIZAR EL GIT
+
+git add .  PARA ANIADIR TODOS LOS CAMBIOS REALIZADOS AL LOCAL
+
+git commit -m "CAMBIO REALIZADO" PARA PONER COMENTARIO DEL CAMBIO
+
+ git push -u origin main   PARA MANDAR LA ACTUALIZACION A LA RAMA PRINCIPAL "MAIN"
+
+git push -u origin (Nombre de la rama) Para mandar actualizacion a la rama   
+
+git status 
+
+
+
+git branch   MUESTRA EN QUE RAMA ESTAMOS
+
+
+git branch RAMA    CREA UNA RAMA
+
+
+git fetch origin    TRAE RAMIFICACION DE LOS DEMAS 
+
+
+git branch -r    verificar ramificaciones en el remoto
+
+
+git checkout -b nombre-de-la-rama-local origin/nombre-de-la-rama-remota
+
+
+git diff RamadeLeo..RamadeTony
