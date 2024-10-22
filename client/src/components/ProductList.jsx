@@ -5,10 +5,13 @@ const ProductList = ({ usuarioNombre, allProducts, setAllProducts, countProducts
     const [products, setProducts] = useState([]);
 
     useEffect(() => {
-        // Cargar los productos desde data.json
+        // Cargar los productos desde la API
         const fetchData = async () => {
             try {
-                const response = await fetch('http://localhost:5000/productos'); // Asegúrate de que la ruta sea correcta
+                const response = await fetch('/api/productos'); // Cambia a la ruta correcta de la API
+                if (!response.ok) {
+                    throw new Error('Error al cargar los datos');
+                }
                 const data = await response.json();
                 setProducts(data);
             } catch (error) {
