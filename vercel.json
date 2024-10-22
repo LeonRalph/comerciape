@@ -5,7 +5,7 @@
       { "src": "server/Server.js", "use": "@vercel/node" }
     ],
     "routes": [
-      { "src": "/api/(.*)", "dest": "server/Server.js" },
+      { "src": "/(.*)", "dest": "server/Server.js" },
       { "src": "/(.*)", "dest": "client/build/$1" }
     ]
   }
