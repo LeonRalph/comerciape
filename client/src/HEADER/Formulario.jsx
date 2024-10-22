@@ -27,7 +27,7 @@ const Formulario = () => {
     // Cargar usuarios desde usuarios.json
     const fetchUsuarios = async () => {
       try {
-        const response = await fetch('/usuarios.json');
+        const response = await fetch('http://localhost:5000/usuarios'||'/usuarios');
         if (!response.ok) {
           throw new Error('Error al cargar usuarios');
         }

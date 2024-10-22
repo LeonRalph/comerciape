@@ -5,21 +5,24 @@ const path = require('path');
 const cors = require('cors');
 
 const app = express();
-const PORT = 5000;
+const PORT = process.env.PORT || 5000; // Usa el puerto proporcionado por Vercel o el 5000 localmente
 
 app.use(cors());
 app.use(bodyParser.json());
 
-// Ruta al archivo usuarios.json dentro de la carpeta src
-const usuariosFilePath = path.join(__dirname, 'public', 'usuarios.json');
+// Ruta al archivo usuarios.json dentro de la carpeta server/public
+const usuariosFilePath = path.join(__dirname, 'server', 'public', 'usuarios.json');
+
+// Ruta al archivo data.json dentro de la carpeta server/public
+const productosFilePath = path.join(__dirname, 'server', 'public', 'data.json');
 
 // Leer usuarios desde usuarios.json
 app.get('/usuarios', (req, res) => {
     fs.readFile(usuariosFilePath, 'utf8', (err, data) => {
         if (err) {
-            return res.status(500).send('Error al leer el archivo');
+            return res.status(500).send('Error al leer el archivo de usuarios');
         }
-        res.send(data);
+        res.json(JSON.parse(data)); // Asegúrate de enviar un objeto JSON
     });
 });
 
@@ -30,7 +33,7 @@ app.post('/usuarios', (req, res) => {
     // Leer usuarios existentes
     fs.readFile(usuariosFilePath, 'utf8', (err, data) => {
         if (err) {
-            return res.status(500).send('Error al leer el archivo');
+            return res.status(500).send('Error al leer el archivo de usuarios');
         }
 
         const users = JSON.parse(data);
@@ -40,15 +43,12 @@ app.post('/usuarios', (req, res) => {
         // Escribir en el archivo
         fs.writeFile(usuariosFilePath, JSON.stringify(users, null, 2), (err) => {
             if (err) {
-                return res.status(500).send('Error al escribir en el archivo');
+                return res.status(500).send('Error al escribir en el archivo de usuarios');
             }
             res.status(201).send(newUser);
         });
     });
 });
-
-// Rutas para productos
-const productosFilePath = path.join(__dirname, 'public', 'data.json');
 
 // Leer productos desde data.json
 app.get('/productos', (req, res) => {
@@ -56,7 +56,7 @@ app.get('/productos', (req, res) => {
         if (err) {
             return res.status(500).send('Error al leer el archivo de productos');
         }
-        res.send(data);
+        res.json(JSON.parse(data)); // Asegúrate de enviar un objeto JSON
     });
 });
 
@@ -84,6 +84,7 @@ app.post('/productos', (req, res) => {
     });
 });
 
+// Iniciar el servidor
 app.listen(PORT, () => {
     console.log(`Servidor corriendo en http://localhost:${PORT}`);
 });

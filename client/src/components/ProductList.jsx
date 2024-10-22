@@ -8,7 +8,7 @@ const ProductList = ({ usuarioNombre, allProducts, setAllProducts, countProducts
         // Cargar los productos desde la API
         const fetchData = async () => {
             try {
-                const response = await fetch('/api/productos'); // Cambia a la ruta correcta de la API
+                const response = await fetch('http://localhost:5000/productos'||'/productos'); // Mantén esta ruta, ya que es la correcta según tu Server.js
                 if (!response.ok) {
                     throw new Error('Error al cargar los datos');
                 }
