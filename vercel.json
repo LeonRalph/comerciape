@@ -5,8 +5,8 @@
       { "src": "server/Server.js", "use": "@vercel/node" }
   ],
   "routes": [
-      { "src": "/productos", "dest": "server/Server.js" }, 
-      { "src": "/usuarios", "dest": "server/Server.js" },
-      { "src": "/(.*)", "dest": "client/build/$1" } 
+      { "src": "/productos", "dest": "/server/Server.js" }, 
+      { "src": "/usuarios", "dest": "/server/Server.js" },
+      { "src": "/(.*)", "dest": "/client/build/$1" } 
   ]
 }

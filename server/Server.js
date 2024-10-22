@@ -11,10 +11,10 @@ app.use(cors());
 app.use(bodyParser.json());
 
 // Ruta al archivo usuarios.json dentro de la carpeta server/public
-const usuariosFilePath = path.join(__dirname, 'server', 'public', 'usuarios.json');
+const usuariosFilePath = path.join(__dirname, 'public', 'usuarios.json');
 
 // Ruta al archivo data.json dentro de la carpeta server/public
-const productosFilePath = path.join(__dirname, 'server', 'public', 'data.json');
+const productosFilePath = path.join(__dirname, 'public', 'data.json');
 
 // Leer usuarios desde usuarios.json
 app.get('/usuarios', (req, res) => {
